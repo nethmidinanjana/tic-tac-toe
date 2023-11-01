@@ -16,15 +16,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-image: url('/bg2.jpg');
+    background-size: cover;
+    background-position: cover;
 }
 
 .box{
   width: 70px;
   height: 70px;
-  background-color: #3498db;
-  color: #fff;
+  background-color: #C8F9FF;
+  color: black;
+  font-weight: bold;
+  font-size: "30px";
   justify-content: center;
   align-items: center;
-  border: 2px solid #2980b9;
+  border: 1px solid #D80032;
   border-radius: 5px;
 }
